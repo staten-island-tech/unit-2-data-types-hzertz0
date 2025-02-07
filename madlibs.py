@@ -1,4 +1,4 @@
-print(f"One day, I decided to visit the zoo. As soon as I walked in, I saw an ANIMAL. It looked very ADJECTIVE and was making a lot of NOUN. I quickly walked over to see the ANIMAL, which was VERB in its cage. I quickly decided to VERB and then go check out the ANIMAL2 cage. He was very ADJECTIVE2 and was VERB3 a lot. I had a VERB time at the zoo!")
+print(f"One day, I decided to visit the zoo. As soon as I walked in, I saw an ANIMAL. It looked very ADJECTIVE and was making a lot of NOUN. I quickly walked over to see the ANIMAL, which was VERB in its cage. I quickly decided to VERB2 and then go check out the ANIMAL2 cage. He was very ADJECTIVE2 and was VERB3 a lot. I had a VERB4 time at the zoo!")
 print("Insert your own words in the placeholders above to create your own madlib!")
 
 animal = input("Enter the first animal: ")

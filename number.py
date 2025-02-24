@@ -6,12 +6,18 @@ def get_random_number():
 Tries = 0
 
 randomnumber = get_random_number()
-print(randomnumber)
+
+# Start the guessing loop
 while True:
     randominput = int(input("Guess the number between 1 and 100: "))
-    if randominput == randomnumber:
-        print("You guessed correctly! Tries: ", Tries)
+    Tries += 1
+
+    if randominput < randomnumber:
+        print("The number is higher!")
+
+    elif randominput > randomnumber:
+        print("The number is lower!")
+
+    elif randominput == randomnumber:
+        print("You guessed correctly! Tries:", Tries)
         break
-    else:
-        print("Try again!")
-        Tries += 1

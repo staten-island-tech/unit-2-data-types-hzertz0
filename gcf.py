@@ -1,4 +1,4 @@
-def find_gcf(num1, num2):
+"""def find_gcf(num1, num2):
     # Find the smaller number between num1 and num2
     smallernumber = min(num1, num2)
     
@@ -15,4 +15,9 @@ num2 = int(input("Enter the second number: "))
 
 # Find the GCF of the two numbers
 result = find_gcf(num1, num2)
-print(f"The GCF of {num1} and {num2} is: {result}")
+print(f"The GCF of {num1} and {num2} is: {result}")"""
+
+values = [1,2.23,5,7,2,30,15]
+print(values)
+for i in values:
+    print(i)

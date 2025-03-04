@@ -1,6 +1,6 @@
 def find_gcf(num1, num2):
     # Find the smaller number between num1 and num2
-    smallernumber = min(num1, num2)
+    smallernumber = min(num1, num2) 
     
     # Iterate from 1 to the smaller number
     for i in range(1, smallernumber + 1):
